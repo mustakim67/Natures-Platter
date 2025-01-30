@@ -18,7 +18,8 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        'basic': '#rgba(23, 152, 0, 1)',
+                        'basic': 'rgba(23, 152, 0, 1)',
+                        'linear': 'rgba(239, 235, 227, 1)'
                     }
                 }
             }
@@ -48,14 +49,29 @@
                 </ul>
             </div>
             <div class="navbar-end invisible lg:visible lg:gap-3">
-                    <i class="fa-solid fa-magnifying-glass text-xl mr-[8px]"></i>
-                    <i class="fa-solid fa-cart-shopping text-xl mr-[8px]"></i>
-                <a class="border-2 border-lime-600 py-[10px] px-[30px] rounded-lg">Login</a>
-                <a class="btn text-white bg-lime-600 py-[10px] px-[30px]">Register</a>
-                <i class="fa-solid fa-bars text-2xl text-lime-600 lg:invisible visible"></i>
+                <i class="fa-solid fa-magnifying-glass text-xl mr-[8px]"></i>
+                <i class="fa-solid fa-cart-shopping text-xl mr-[8px]"></i>
+                <a class="border-2 border-basic py-[10px] px-[30px] rounded-lg">Login</a>
+                <a class="btn text-white bg-basic py-[10px] px-[30px]">Register</a>
+                <i class="fa-solid fa-bars text-2xl text-basic lg:invisible visible"></i>
             </div>
         </div>
     </nav>
+    <section>
+        <hr class="bg-basic lg:invisible">
+        <div class="bg-gradient-to-t from-linear to-white">
+            <div class="banner-heading text-center pt-[50px] lg:pt-[90px] space-y-4 lg:space-y-8">
+                <h1 class="text-[33px] lg:text-5xl font-semibold">Freshness <span class="text-basic">You Can<br>
+                        Count</span> On, Prices You’ll Love!</h2>
+                    <p class="text-lg lg:texl-xl mb-[37px]">Shop your daily essentials at unbeatable prices. From fresh produce to
+                        pantry<br> staples, we’ve got you covered every day!</p>
+            </div>
+            <div class="banner-image max-w-[1031px] mx-auto">
+                <img src="./c2-assets/hero-vegetables.png" alt="hero vagetables image">
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>
