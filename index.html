@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nature's Platter</title>
     <link rel="icon" type="image/x-icon" href="./c2-assets/logo-header.png">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'basic': '#rgba(23, 152, 0, 1)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+        .sora {
+            font-family: "Sora", serif;
+        }
+    </style>
+
 </head>
-<body>
-    
+
+<body class="sora">
+    <nav class="container mx-auto px-4 mt-[20px]">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <img src="./c2-assets/logo-header.png" alt="logo">
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-lg">
+                    <li><a>Product</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Contact us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end invisible lg:visible lg:gap-3">
+                    <i class="fa-solid fa-magnifying-glass text-xl mr-[8px]"></i>
+                    <i class="fa-solid fa-cart-shopping text-xl mr-[8px]"></i>
+                <a class="border-2 border-lime-600 py-[10px] px-[30px] rounded-lg">Login</a>
+                <a class="btn text-white bg-lime-600 py-[10px] px-[30px]">Register</a>
+                <i class="fa-solid fa-bars text-2xl text-lime-600 lg:invisible visible"></i>
+            </div>
+        </div>
+    </nav>
 </body>
+
 </html>
