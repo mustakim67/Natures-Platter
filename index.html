@@ -112,15 +112,15 @@
                 <h3 class="text-2xl lg:text-3xl text-basic font-semibold">Popular Products</h3>
             </div>
             <!--card part-->
-            <div class="card-box grid grid-cols-2 lg:grid-cols-5 gap-3 mx-2">
+            <div class="card-box grid grid-cols-2 lg:grid-cols-5 gap-3 mx-2 items-center">
                 <div
-                    class="popular-card1 bg-gradient-to-br from-[#179800] to-white rounded-xl col-span-2 row-span-3 p-10 pt-15 relative lg:relative mb-5 space-y-5">
+                    class="popular-card1 bg-gradient-to-br from-[#179800] to-white rounded-xl col-span-2 row-span-3 p-10 pt-13 relative lg:relative mb-5 space-y-5 lg:h-[392px]">
                     <div>
                         <h3 class="text-2xl lg:text-3xl text-white font-bold pt-[5px] lg:pt-[15px]">30% off</h3>
                         <p class="mt-[10px] lg:mt-[20px]">Farm-fresh veggies delivered to your door!  Shop online for
                             the best selection and
                             convenient, healthy meals.</p>
-                        <button class="px-10 py-2 mt-[50px] bg-basic text-white rounded-lg hover:bg-blue-500">Buy
+                        <button class="px-10 py-2 mt-[50px] bg-white  text-black rounded-lg hover:bg-blue-500 hover:text-white">Buy
                             Now</button>
                     </div>
                     <div class="absolute right-0 bottom-0">
@@ -170,7 +170,7 @@
                             <h3 class="text-sm lg:text-lg font-semibold"> 4.5</h3>
                         </div>
                         <div>
-                            <h2 class="text-sm lg:text-lg font-semibold">Tomato 1 KG</h2>
+                            <h2 class="text-sm lg:text-lg font-semibold">Tomato 1KG</h2>
                             <p class="text-sm lg:text-lg">$39.99</p>
                         </div>
                     </div>
@@ -186,7 +186,7 @@
                             <h3 class="text-sm lg:text-lg font-semibold"> 4.5</h3>
                         </div>
                         <div>
-                            <h2 class="text-sm lg:text-lg font-semibold">Tomato 1 KG</h2>
+                            <h2 class="text-sm lg:text-lg font-semibold">Tomato 1KG</h2>
                             <p class="text-sm lg:text-lg">$39.99</p>
                         </div>
                     </div>
@@ -250,7 +250,7 @@
                             <h3 class="text-sm lg:text-lg font-semibold"> 4.5</h3>
                         </div>
                         <div>
-                            <h2 class="text-sm lg:text-lg font-semibold">Tomato 1 KG</h2>
+                            <h2 class="text-sm lg:text-lg font-semibold">Tomato 1KG</h2>
                             <p class=" text-sm lg:text-lg">$39.99</p>
                         </div>
                     </div>
@@ -276,21 +276,27 @@
         </div>
     </section>
     <!--challange part-->
-    <section class="container mx-auto px-2 mt-10" >
-        <div role="alert" class="alert mt-15">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              class="stroke-info h-6 w-6 shrink-0">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-            </svg>
-            <span>Please read our refund policy and terms and conditions. Don't share your OTP with others. We always respect your privacy. Thank you !</span>
-          </div>
+    <section class="container mx-auto px-2 mt-10 mb-20" >
+        <div class="section-header">
+            <h2 class="text-2xl text-center text-basic font-bold mt-5 mb-5">Best Selling Products</h2>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+            <div class="bg-[url(./c2-assets/bg-action2.jpg)] bg-[80%] p-4 bg-no-repeat space-y-7 rounded-xl">
+                 <h2 class="text-2xl lg:3xl font-bold justify-end">Strawberry</h2>
+                 <p class="text-center text-justify text-gray-500">Vegetables are important part of healthy eating and provide a source of many nutrients.</p>
+                 <button class="px-5 py-2 border-2 border-basic rounded-2xl text-basic text-sm lg:text-lg ml-[220px]">Order Now</button>
+            </div>
+            <div class="bg-[url(./c2-assets/bg-action1.jpg)] p-4 bg-no-repeat space-y-7 rounded-xl">
+                <h2 class="text-2xl lg:3xl font-bold justify-end">Cabbage</h2>
+                <p class="text-center text-justify text-gray-500">Vegetables are important part of healthy eating and provide a source of many nutrients.</p>
+                <button class="px-5 py-2 border-2 border-basic rounded-2xl text-basic text-sm lg:text-lg ml-[220px]">Order Now</button>
+           </div>
+           <div class="bg-[url(./c2-assets/bg-action3.jpg)] p-4 bg-no-repeat space-y-7 rounded-xl">
+            <h2 class="text-2xl lg:3xl font-bold ">Cauliflower</h2>
+            <p class="text-center text-justify text-gray-500">Vegetables are important part of healthy eating and provide a source of many nutrients.</p>
+            <button class="px-5 py-2 border-2 border-basic rounded-2xl text-basic text-sm lg:text-lg ml-[220px]">Order Now</button>
+       </div>
+        </div>
     </section>
     <section class="container mx-auto px-2 mt-10 lg:mb-[380px] mb-[340px]">
         <div class="arrival-heading">
@@ -336,8 +342,8 @@
             <div>
                 <img src="./c2-assets/vegetable-busket.png" alt="vegetable busket">
             </div>
-            <div class="space-y-4 lg:text-start text-center pb-4">
-                <h2 class="text-2xl lg:text-3xl text-basic font-bold mt-4">Get Grocery News!</h2>
+            <div class="space-y-6 lg:text-start text-center pb-4">
+                <h2 class="text-2xl lg:text-3xl text-black font-bold mt-4">Get Grocery News!</h2>
                 <p>Exclusive training tips, ticks, product deals and more.</p>
                 <input type="text" placeholder="Enter email...."
                     class="max-w-[312px] lg:max-w-[524px] py-2 px-4 lg:pr-20 rounded-lg"><br>
