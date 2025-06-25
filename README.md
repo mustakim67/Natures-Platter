@@ -40,7 +40,7 @@ Natures Platter is a frontend website that showcases healthy and natural food op
    git clone https://github.com/mustakim67/Natures-Platter.git
 2. **Navigate into the project folder**
    ```bash
-  cd Natures-Platter
+   cd Natures-Platter
 
 3. **Open index.html in your browser**
 
